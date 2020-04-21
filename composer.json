@@ -1,0 +1,20 @@
+{
+  "name": "jonaseberle/test-extending-extbase",
+  "description": "",
+  "version": "1.0.0",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "typo3/cms-core": "^10.4@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyVendor\\TestExtendingExtbase\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "test_extending_extbase"
+    }
+  }
+}
